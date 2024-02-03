@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinha número</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="titulo">Adivinhe o número</div>
+
+    <div class="main">
+        <div>Adivinhe um número de <span id="minNumber"></span> a <span id="maxNumber"></span></div>
+        <div> tentativas restantes: <span id="guessesRemaining"></span> </div>
+
+        <input type="number" id="userNumber">
+        <button id="checked">Adivinhe</button>
+        <button id="reset">Reiniciar</button>
+
+        <div id="tip"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

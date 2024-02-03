@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background: rgb(38, 31, 94);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    font-size: 4rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkcyan;
+    border: solid 16px blue;
+    margin-bottom: 10%;
+
+}
+
+.main {
+    justify-content: center;
+    display: grid;
+    grid-auto-rows: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    gap: 18px;
+}
+
+button {
+    font-size: 1rem;
+    color: white;
+    background: transparent;
+    border-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover { opacity: 0.6;}
+
+input {
+    font-size: 1rem;
+    padding: 16px;
+    background-color: transparent;
+    color: aliceblue;
+    border-color: white;
+    border-radius: 8px;
+}
+
+.hidden{ display: none;}
+
+
